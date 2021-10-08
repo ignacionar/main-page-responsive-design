@@ -9,6 +9,10 @@
     --nicecolor: linear-gradient(360deg, rgb(200, 200, 200) 0%, rgba(246, 239, 204, 0.9) 100%);
 }
 
+.anoeff:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -45,12 +49,22 @@ a:hover {
     background: var(--nicecolor);
     text-align: center;
     padding: 10%;
+    animation-name: animate1; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: zoom-in; 
+    animation-delay: 0s; 
 }
 
 .navwrapper {
     max-width: 1000px;
     margin: 0 auto;
     padding: 5px 55px;
+    animation-name: animate1; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: zoom-in; 
+    animation-delay: 0s; 
 }
 
 .title {
@@ -76,6 +90,11 @@ a:hover {
     max-height: 70%;
     align-content: center;
     box-shadow: 0 0 11px 1px rgb(0, 0, 0);
+    animation-name: animate1; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: zoom-in; 
+    animation-delay: 0s; 
 }
 
 .navbar ul { 
@@ -98,10 +117,16 @@ a:hover {
 .wrapper {
     display: grid;
     grid-template-columns: 550px 550px;
+    margin-left: 5%;
 }
 
 .col2 {
     margin-top: 8%;
+    animation-name: animate1; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: zoom-in; 
+    animation-delay: 0s; 
 }
 
 .imgone {
@@ -122,7 +147,13 @@ hr {
     outline: rgba(246, 239, 204, 0.8) 6px solid;
     box-shadow: 0 0 7px 7px rgb(0, 0, 0);
 }
-
+.hran {
+    animation-name: animate1; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: zoom-in; 
+    animation-delay: 0s; 
+}
 .about {
     display: flex;
     flex-direction: column;
@@ -204,7 +235,7 @@ hr {
     background: none;
     font-family: 'Nunito', sans-serif;
     padding: 20px 30px;
-    margin-left: 7%;
+    margin-left: 20%;
     color: black;
     background-color: greenyellow;
     font-weight: bolder;
@@ -235,7 +266,7 @@ hr {
     background: none;
     font-family: 'Nunito', sans-serif;
     padding: 20px 30px;
-    margin-left: 5%;
+    margin-left: 20%;
     color: black;
     background-color: rgb(197, 227, 246);
     font-weight: bolder;
@@ -264,7 +295,7 @@ li {
     display: grid;
     grid-template-columns: 550px 550px;
     margin-bottom: 10%;
-   
+    margin-left: 5%;
 }
 .col3 {
     display: grid;
@@ -373,6 +404,7 @@ li {
     .col2 {
         margin: 0%;
         margin-top: 5%;
+        margin-left: 5%;
     }
     .imgone {
         width: 360px;  
@@ -398,8 +430,7 @@ li {
         grid-template-columns: 400px;
         font-size: large;
         text-align: center;
-        align-items: center;
-        padding-left: 9%; 
+        padding-left: 13%;
     }
     .app_details {
         padding-right: 20%;
@@ -410,6 +441,9 @@ li {
     hr {
         margin-top: 10%;
         margin-bottom: 10%;
+    }
+    .account {
+        margin-right: 110px;
     }
     .createaccount {
         display: flex;
@@ -428,6 +462,7 @@ li {
         margin: 0%;
         margin-right: 6%;
     }
+    
     .btn1,
     .btn2 {
         margin: 0;
@@ -447,7 +482,7 @@ li {
         grid-row: 1;
         margin: 0 auto;
         padding-left: 3%;
-        margin-right: 25%;
+        margin-right: 26%;
         margin-bottom: 8%;
     }
     .col4 {
@@ -455,8 +490,20 @@ li {
         display: flex;
         flex: 1;
         grid-row: 2;
-        margin-right: 37%;
+        margin-right: 40%;
         margin-bottom: 8%;
         text-align: center;
+    }
+}
+
+@keyframes animate1 {
+    0% {
+    transform: scale(0, 1);
+    }
+    50% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(1, 1);
     }
 }
