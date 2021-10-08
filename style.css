@@ -405,7 +405,7 @@ li {
     .col2 {
         margin: 0%;
         margin-top: 5%;
-        margin-left: 5%;
+        margin-left: 8%;
     }
     .imgone {
         width: 320px;  
@@ -469,10 +469,10 @@ li {
         margin: 0;
     }
     .btn1 {
-        margin-left: 2%;
+        margin-left: 5%;
     }
     .btn2 {
-        margin-left: 2%;
+        margin-left: 7%;
     }
     .contact__wrapper {
         display: grid;
@@ -493,7 +493,7 @@ li {
         grid-row: 2;
         margin-bottom: 8%;
         text-align: center;
-        margin-right: 35%;
+        margin-right: 40%;
     }
 }
 
