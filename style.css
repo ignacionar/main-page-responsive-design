@@ -407,7 +407,7 @@ li {
         margin-left: 5%;
     }
     .imgone {
-        width: 360px;  
+        width: 320px;  
         height: 100%;
         outline: rgba(246, 239, 204, 0.702) 4px solid;
         grid-area: imgone;
@@ -431,6 +431,7 @@ li {
         font-size: large;
         text-align: center;
         padding-left: 13%;
+        background-color: rgba(246, 239, 204, 0.9);
     }
     .app_details {
         padding-right: 20%;
@@ -442,9 +443,7 @@ li {
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    .account {
-        margin-right: 110px;
-    }
+   
     .createaccount {
         display: flex;
         flex-direction: column;
@@ -482,7 +481,6 @@ li {
         grid-row: 1;
         margin: 0 auto;
         padding-left: 3%;
-        margin-right: 26%;
         margin-bottom: 8%;
     }
     .col4 {
@@ -490,7 +488,6 @@ li {
         display: flex;
         flex: 1;
         grid-row: 2;
-        margin-right: 40%;
         margin-bottom: 8%;
         text-align: center;
     }
